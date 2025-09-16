@@ -1,9 +1,7 @@
 import React from "react";
-import { RiReactjsLine } from "react-icons/ri";
-import { SiMongodb } from "react-icons/si";
-import { SiExpress } from "react-icons/si";
+import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
+import { SiMongodb, SiExpress, SiPrisma, SiTypescript, SiNextdotjs, SiShadcnui } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
-import { RiTailwindCssFill } from "react-icons/ri";
 import { BsBootstrap } from "react-icons/bs";
 import { GrMysql } from "react-icons/gr";
 import { animate, motion } from "framer-motion";
@@ -90,6 +88,38 @@ function Technologies() {
           className="rounded-xl border-4 border-neutral-800 p-4"
         >
           <GrMysql className="text-7xl text-cyan-300" />
+        </motion.div>
+        <motion.div
+          variants={iconVariant(2.8)}
+          initial="initial"
+          animate="animate"
+          className="rounded-xl border-4 border-neutral-800 p-4"
+        >
+          <SiNextdotjs className="text-7xl text-white" />
+        </motion.div>
+        <motion.div
+          variants={iconVariant(3.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-xl border-4 border-neutral-800 p-4"
+        >
+          <SiTypescript className="text-7xl text-blue-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVariant(2.2)}
+          initial="initial"
+          animate="animate"
+          className="rounded-xl border-4 border-neutral-800 p-4"
+        >
+          <SiPrisma className="text-7xl text-indigo-400" />
+        </motion.div>
+        <motion.div
+          variants={iconVariant(3.2)}
+          initial="initial"
+          animate="animate"
+          className="rounded-xl border-4 border-neutral-800 p-4"
+        >
+          <SiShadcnui className="text-7xl text-emerald-500" />
         </motion.div>
       </motion.div>
     </div>
