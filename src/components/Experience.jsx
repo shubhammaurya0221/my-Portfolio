@@ -19,7 +19,7 @@ function Experience() {
           <div>
             <h3 className="text-xl font-bold text-neutral-300">Frontend Web Developer</h3>
             <p className="text-neutral-300">Leafny Web Pack Services & Consultancy · Internship</p>
-            <p className="text-neutral-400 text-sm">Sep 2025 - Present · 1 month</p>
+            <p className="text-neutral-400 text-sm">Sep 2025 - Present · 2 month</p>
             <p className="text-neutral-400 text-sm">Aurangabad, Maharashtra, India · Remote</p>
           </div>
         </div>
