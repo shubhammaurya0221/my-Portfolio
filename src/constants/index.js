@@ -1,3 +1,4 @@
+import project0 from "../assets/projects/project-0.jpg";
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
@@ -41,6 +42,13 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+   {
+  title: "OneCart",
+  image: project0,
+  description:
+    "OneCart is an AI-powered e-commerce platform built with the MERN stack, featuring hands-free voice navigation, secure Razorpay payment integration, and a comprehensive admin dashboard for inventory management.",
+  technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "Tailwind CSS", "Razorpay", "Firebase"],
+},
    {
     title: "AirBnb",
     image: project1,
